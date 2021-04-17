@@ -4,7 +4,7 @@ import requests
 import time
 import datetime
 from datetime import datetime
-from pytz import timezone
+from pytz import timezone    
 
 def Runner():
     def DataReturned():
@@ -61,11 +61,6 @@ def Runner():
 
     time.sleep(2)
 
-def Scripter():
-    while (True):
-        Runner()
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    Scripter()
+while(True):
+  Runner()
 
